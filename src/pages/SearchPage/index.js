@@ -57,8 +57,8 @@ export default function SearchPage() {
         })}
       </section>
     ) : (
-      <section className="no-results" id="test">
-        <div className="no-results__text">
+      <section className="no-results" id="12test">
+        <div className="no-results__text" id="result">
           <p>
             찾고자하는 검색어"{debouncedSearchTerm}"에 맞는 영화가 없습니다.
           </p>
