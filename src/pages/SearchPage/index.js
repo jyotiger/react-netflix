@@ -62,7 +62,7 @@ export default function SearchPage() {
           <p>
             찾고자하는 검색어"{debouncedSearchTerm}"에 맞는 영화가 없습니다.
           </p>
-          <p>test</p>
+          <p>test수정 feature-test2에서</p>
         </div>
       </section>
     );
