@@ -57,12 +57,13 @@ export default function SearchPage() {
         })}
       </section>
     ) : (
-      <section className="no-results" id="12test">
-        <div className="no-results__text" id="result">
+      <section className="no-results" id="testconfilct">
+        <div className="no-results__text" id="test2">
           <p>
             찾고자하는 검색어"{debouncedSearchTerm}"에 맞는 영화가 없습니다.
           </p>
           <p>t1234est수정 feature-test2에서</p>
+          <p>네번째1에 추가 수정</p>
         </div>
       </section>
     );
